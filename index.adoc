@@ -53,7 +53,7 @@ image:logocloudstic.png[]
 * https://ualmtorres.github.io/OpenStackSTIC/#trueiniciar-reiniciar-y-apagar-una-m-quina-virtual[Iniciar/reiniciar/apagar instancia,window=_blank]
 * https://ualmtorres.github.io/OpenStackSTIC/#trueconexi-n-de-un-volumen-a-una-instancia[Añadir volumen a instancia,window=_blank]
 * https://ualmtorres.github.io/OpenStackSTIC/#trueconexi-n-de-un-volumen-nfs-a-una-instancia[Añadir volumen NFS a instancia,window=_blank]
-* $$link:instancias-crear-snapshot.html[Crear snapshot,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#truecrear-snapshot-de-una-instancia[Crear snapshot,window=_blank]
 * https://ualmtorres.github.io/OpenStackSTIC/#truea-adir-claves-ssh[Añadir claves SSH adicionales,window=_blank]
 * $$link:instancias-conectar-red.html[Conectar a otra red,window=_blank]
 * https://ualmtorres.github.io/OpenStackSTIC/#trueredimensionar-una-instancia[Redimensionar instancia,window=_blank]
@@ -78,10 +78,10 @@ image:logocloudstic.png[]
 
 ## Imágenes
 
-* $$link:imagenes-crear.html[Subir imagen,window=_blank]
-* $$link:instancias-crear-snapshot.html[Crear snapshot,window=_blank]
-* $$link:imagenes-proteger.html[Proteger imagen,window=_blank]
-* $$link:imagenes-publica.html[Convertir imagen en pública (admin),window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#truesubir-una-imagen[Subir imagen,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#truecrear-snapshot-de-una-instancia[Crear snapshot,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueproteger-desproteger-una-imagen[Proteger imagen,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueconvertir-una-imagen-en-p-blica[Convertir imagen en pública (admin),window=_blank]
 * http://ualmtorres.github.io/howtos/Windows7OpenStack/[Crear imagen Windows,window=_blank]
 
 ## Proyectos
