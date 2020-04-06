@@ -1,0 +1,105 @@
+////
+NO CAMBIAR!!
+Codificación, idioma, tabla de contenidos, tipo de documento
+////
+:encoding: utf-8
+:lang: es
+:doctype: book
+:imagesdir: ./images
+:linkattrs:
+
+
+////
+Nombre y título del trabajo
+////
+# Guía de operaciones en OpenStack-STIC
+Servicio de las Tecnologías de la Información y las Comunicaciones - Universidad de Almería
+
+
+// NO CAMBIAR!! (Entrar en modo no numerado de apartados)
+:numbered!: 
+
+
+image:logocloudstic.png[]
+
+## Habituales
+
+* https://ualmtorres.github.io/OpenStackSTIC/#truecreaci-n-de-una-m-quina-virtual[Crear instancia,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueiniciar-reiniciar-y-apagar-una-m-quina-virtual[Iniciar/reiniciar/apagar instancia,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueasignaci-n-de-ip-flotante[Asignar IP flotante,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#truegeneraci-n-de-claves-ssh[Crear par de claves,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueconfiguraci-n-de-las-reglas-de-seguridad[Definir reglas de seguridad,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#truecreaci-n-de-un-volumen[Crear volumen,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueconexi-n-de-un-volumen-a-una-instancia[Conectar un volumen,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#truecreaci-n-de-un-volumen-nfs[Crear volumen NFS,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueconfiguraci-n-de-las-reglas-de-acceso[Añadir reglas de acceso NFS,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueconexi-n-de-un-volumen-nfs-a-una-instancia[Añadir volumen NFS a instancia,window=_blank]
+
+## Usuarios
+
+* https://ualmtorres.github.io/OpenStackSTIC/#truecambio-de-la-contrase-a[Cambiar contraseña,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#truegeneraci-n-de-claves-ssh[Crear par de claves,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#truerestablecer-contrase-a[Restablecer contraseña (admin),window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#truecrear-usuario[Crear usuario,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#truedesactivar-activar-usuario[Desactivar/activar usuario (admin),window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueeliminar-usuario[Eliminar usuario (admin),window=_blank]
+
+## Instancias
+
+* https://ualmtorres.github.io/OpenStackSTIC/#truecreaci-n-de-una-m-quina-virtual[Crear instancia,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueaprovisionamiento-de-una-instancia-durante-la-creaci-n[Crear instancia preconfigurada,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#truecreaci-n-de-una-instancia-con-acceso-mediante-login-y-password[Crear instancia con acceso login y password,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueasignaci-n-de-ip-flotante[Asignar IP flotante,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueiniciar-reiniciar-y-apagar-una-m-quina-virtual[Iniciar/reiniciar/apagar instancia,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueconexi-n-de-un-volumen-a-una-instancia[Añadir volumen a instancia,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueconexi-n-de-un-volumen-nfs-a-una-instancia[Añadir volumen NFS a instancia,window=_blank]
+* $$link:instancias-crear-snapshot.html[Crear snapshot,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#truea-adir-claves-ssh[Añadir claves SSH adicionales,window=_blank]
+* $$link:instancias-conectar-red.html[Conectar a otra red,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueredimensionar-una-instancia[Redimensionar instancia,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#truemover-instancia[Mover instancia (admin),window=_blank]
+
+## Almacenamiento de bloques
+
+* https://ualmtorres.github.io/OpenStackSTIC/#truecreaci-n-de-un-volumen[Crear volumen,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueconexi-n-de-un-volumen-a-una-instancia[Conectar volumen,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#truedesconexi-n-de-un-volumen[Desconectar volumen,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueextender-un-volumen[Extender volumen,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#truetransferir-un-volumen-a-otro-proyecto[Transferir volumen,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueeliminar-volumen[Eliminar volumen,window=_blank]
+
+## Almacenamiento compartido
+
+* https://ualmtorres.github.io/OpenStackSTIC/#truecreaci-n-de-un-volumen-nfs[Crear volumen NFS,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueconfiguraci-n-de-las-reglas-de-acceso[Añadir reglas de acceso NFS,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueextender-un-volumen-nfs[Extender volumen NFS,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueconexi-n-de-un-volumen-nfs-a-una-instancia[Añadir volumen NFS a instancia,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueeliminar-un-volumen-nfs[Eliminar volumen NFS,window=_blank]
+
+## Imágenes
+
+* $$link:imagenes-crear.html[Subir imagen,window=_blank]
+* $$link:instancias-crear-snapshot.html[Crear snapshot,window=_blank]
+* $$link:imagenes-proteger.html[Proteger imagen,window=_blank]
+* $$link:imagenes-publica.html[Convertir imagen en pública (admin),window=_blank]
+* http://ualmtorres.github.io/howtos/Windows7OpenStack/[Crear imagen Windows,window=_blank]
+
+## Proyectos
+
+* https://ualmtorres.github.io/OpenStackSTIC/#truecrear-proyecto[Crear proyecto (admin),window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueadministrar-miembros[Administrar miembros (admin),window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#truemodificar-la-cuota-de-un-proyecto[Modificar cuota (admin),window=_blank]
+
+## Redes
+
+* https://ualmtorres.github.io/OpenStackSTIC/#trueconfiguraci-n-de-la-infraestructura-b-sica-de-red-de-un-proyecto[Configuración de la infraestructura de red básica de un proyecto,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#truecrear-red-de-proyecto[Crear red,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#truecrear-router-de-proyecto[Crear router,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#truea-adir-interfaz-al-router[Crear interfaz,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueconfiguraci-n-de-las-reglas-de-seguridad[Definir reglas de seguridad,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueasignaci-n-de-ip-flotante[Crear IP flotante,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#trueasignar-ip-flotante-a-un-proyecto[Asignar IP flotante a un proyecto,window=_blank]
+* https://ualmtorres.github.io/OpenStackSTIC/#truebalanceadores-como-servicio-lbaas[Crear balanceador,window=_blank]
+
+
+
